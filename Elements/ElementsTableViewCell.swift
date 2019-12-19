@@ -16,12 +16,15 @@ class ElementsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var detailLabel: UILabel!
     
+    private var urlString = ""
     
     func configureCell(for elementNumber: Int, for element: Element){
     
-        nameLabel.text = element.name.uppercased()
+        backgroundColor = .cyan
         
-        detailLabel.text = "\(element.symbol) (\(element.number) - Atomic Mass: \(element.atomic_mass))"
+        nameLabel.text = element.name?.uppercased()
+        
+        detailLabel.text = "\(element.symbol) (\(element.number) - Atomic Mass: \(element.atomic_mass ?? 0.0))"
         
         var specialNumber = "\(elementNumber)"
         
@@ -36,6 +39,8 @@ class ElementsTableViewCell: UITableViewCell {
             print(specialNumber)
         }
         
+ urlString = specialNumber
+        
         elementImageView.getImage(with: specialNumber) { [weak self] (result) in
             switch result {
             case .failure:
@@ -49,4 +54,9 @@ class ElementsTableViewCell: UITableViewCell {
             }
         }
     }
+    
+    override func prepareForReuse() {
+    super.prepareForReuse()
+        elementImageView.image = UIImage(named:"science")
+}
 }

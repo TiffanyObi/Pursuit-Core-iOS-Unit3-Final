@@ -10,15 +10,15 @@ import Foundation
 
 struct Element: Codable {
     
-    let name: String
+    let name: String?
     let symbol: String
     let number: Int
-    let atomic_mass: Double
+    let atomic_mass: Double?
     let boil: Double?
     let melt: Double?
     let discovered_by: String?
     let favoritedBy: String?
     let density: Double?
-    let source: String
-    let summary: String
+    let source: String?
+    let summary: String?
 }

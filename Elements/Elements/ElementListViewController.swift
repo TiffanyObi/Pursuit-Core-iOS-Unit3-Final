@@ -38,6 +38,7 @@ class ElementListViewController: UIViewController {
     tableView.dataSource = self
     tableView.delegate = self
     loadElements()
+    navigationItem.title = "E L E M E N T S"
   }
 
 

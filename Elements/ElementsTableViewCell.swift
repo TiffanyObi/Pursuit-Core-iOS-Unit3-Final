@@ -30,13 +30,13 @@ class ElementsTableViewCell: UITableViewCell {
         
         if elementNumber < 10 {
             specialNumber = "00\(elementNumber)"
-            print(specialNumber)
+           // print(specialNumber)
         } else if elementNumber > 9 && elementNumber < 100 {
             specialNumber = "0\(elementNumber)"
-            print(specialNumber)
+            //print(specialNumber)
         } else if elementNumber > 100 {
            specialNumber = "00\(elementNumber)"
-            print(specialNumber)
+           // print(specialNumber)
         }
         
  urlString = specialNumber

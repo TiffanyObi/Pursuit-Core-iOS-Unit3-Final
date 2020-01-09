@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E27AF4A23C79DFA00A9BCED /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27AF4923C79DFA00A9BCED /* UIImageView + Extensions.swift */; };
 		3E2D563223ABE06800D1976C /* ElementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2D563123ABE06800D1976C /* ElementsTests.swift */; };
 		3E2D564423AC0D8200D1976C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2D564323AC0D8200D1976C /* AppError.swift */; };
 		3E2D564623AC0DB600D1976C /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2D564523AC0DB600D1976C /* NetworkHelper.swift */; };
@@ -18,6 +17,7 @@
 		3E644A8823C79FC600AC480E /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E644A8723C79FC600AC480E /* FavoritesViewController.swift */; };
 		3E644A8A23C79FEA00AC480E /* FavoitesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E644A8923C79FEA00AC480E /* FavoitesTableViewCell.swift */; };
 		3E644A8C23C7A03700AC480E /* Alerts-Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E644A8B23C7A03700AC480E /* Alerts-Extentions.swift */; };
+		3E644A8E23C7A12200AC480E /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E644A8D23C7A12200AC480E /* UIImageView + Extensions.swift */; };
 		5734756221DA90C700FB6177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5734756121DA90C700FB6177 /* AppDelegate.swift */; };
 		5734756421DA90C700FB6177 /* ElementListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5734756321DA90C700FB6177 /* ElementListViewController.swift */; };
 		5734756721DA90C700FB6177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5734756521DA90C700FB6177 /* Main.storyboard */; };
@@ -36,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E27AF4923C79DFA00A9BCED /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView + Extensions.swift"; path = "/Users/tiffanyobi-pursuit/Documents/Pursuit-Core-iOS-Unit3-Final/Elements/Elements/UIImageView + Extensions.swift"; sourceTree = "<absolute>"; };
 		3E2D562F23ABE06800D1976C /* ElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2D563123ABE06800D1976C /* ElementsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsTests.swift; sourceTree = "<group>"; };
 		3E2D563323ABE06800D1976C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		3E644A8723C79FC600AC480E /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		3E644A8923C79FEA00AC480E /* FavoitesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoitesTableViewCell.swift; sourceTree = "<group>"; };
 		3E644A8B23C7A03700AC480E /* Alerts-Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alerts-Extentions.swift"; sourceTree = "<group>"; };
+		3E644A8D23C7A12200AC480E /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extensions.swift"; sourceTree = "<group>"; };
 		5734755E21DA90C700FB6177 /* Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5734756121DA90C700FB6177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5734756321DA90C700FB6177 /* ElementListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementListViewController.swift; sourceTree = "<group>"; };
@@ -110,11 +110,11 @@
 				3E2D564323AC0D8200D1976C /* AppError.swift */,
 				3E2D564723AC0E0C00D1976C /* ElementStruct.swift */,
 				3E2D564923AC0E2400D1976C /* ElementAPIClient.swift */,
-				3E27AF4923C79DFA00A9BCED /* UIImageView + Extensions.swift */,
 				3E2D564B23AC0E3600D1976C /* ElementsTableViewCell.swift */,
 				3E644A8523C79EB400AC480E /* ElementsDetailViewController.swift */,
 				5734756321DA90C700FB6177 /* ElementListViewController.swift */,
 				3E644A8723C79FC600AC480E /* FavoritesViewController.swift */,
+				3E644A8D23C7A12200AC480E /* UIImageView + Extensions.swift */,
 				3E644A8B23C7A03700AC480E /* Alerts-Extentions.swift */,
 				3E644A8923C79FEA00AC480E /* FavoitesTableViewCell.swift */,
 				5734756521DA90C700FB6177 /* Main.storyboard */,
@@ -250,9 +250,9 @@
 				3E2D564623AC0DB600D1976C /* NetworkHelper.swift in Sources */,
 				5734756421DA90C700FB6177 /* ElementListViewController.swift in Sources */,
 				3E2D564423AC0D8200D1976C /* AppError.swift in Sources */,
-				3E27AF4A23C79DFA00A9BCED /* UIImageView + Extensions.swift in Sources */,
 				3E644A8C23C7A03700AC480E /* Alerts-Extentions.swift in Sources */,
 				3E644A8623C79EB400AC480E /* ElementsDetailViewController.swift in Sources */,
+				3E644A8E23C7A12200AC480E /* UIImageView + Extensions.swift in Sources */,
 				3E2D564A23AC0E2400D1976C /* ElementAPIClient.swift in Sources */,
 				3E644A8823C79FC600AC480E /* FavoritesViewController.swift in Sources */,
 				5734756221DA90C700FB6177 /* AppDelegate.swift in Sources */,

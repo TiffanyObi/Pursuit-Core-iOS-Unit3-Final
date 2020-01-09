@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Elements.xcodeproj">
+      location = "group:/Users/tiffanyobi-pursuit/Documents/Pursuit-Core-iOS-Unit3-Final/Elements/Elements/UIImageView + Extensions.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/tiffanyobi-pursuit/Documents/Pursuit-Core-iOS-Unit3-Final/Elements/Elements/ElementsDetailViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
